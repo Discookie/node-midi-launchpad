@@ -1,29 +1,32 @@
 {
-  "name": "midi-launchpad",
-  "version": "1.0.3",
-  "description": "A simple node module for use with the Novation Launchpad",
-  "keywords": [
+    "name": "midi-launchpad",
+    "version": "1.0.3",
+    "description": "A simple node module for use with the Novation Launchpad",
+    "keywords": [
     "midi",
     "novation",
     "launchpad"
   ],
-  "main": "app.js",
-  "homepage": "http://sydlawrence.github.io/node-midi-launchpad/",
-  "bugs": {
-    "url" : "http://github.com/sydlawrence/node-midi-launchpad/issues",
-    "email" : "sydlawrence+node-midi-launchpad@gmail.com"
-  },
-  "repository": "http://github.com/sydlawrence/node-midi-launchpad",
-  "author": {
-    "name" : "Syd Lawrence",
-    "email" : "sydlawrence+node-midi-launchpad@gmail.com",
-    "url" : "http://sydlawrence.com/"
-  },
-  "license": "BSD",
-  "dependencies" : {
-    "backbone": ">=1.1.0",
-    "underscore": ">=1.5.2",
-    "midi": ">=0.7.0"
-  }
-
+    "main": "app.js",
+    "homepage": "http://sydlawrence.github.io/node-midi-launchpad/",
+    "bugs": {
+        "url": "http://github.com/sydlawrence/node-midi-launchpad/issues",
+        "email": "sydlawrence+node-midi-launchpad@gmail.com"
+    },
+    "repository": "http://github.com/sydlawrence/node-midi-launchpad",
+    "author": {
+        "name": "Syd Lawrence",
+        "email": "sydlawrence+node-midi-launchpad@gmail.com",
+        "url": "http://sydlawrence.com/"
+    },
+    "contributors": [{
+        "name": "Discookie",
+        "email": "mateservers+nmlpgh@gmail.com"
+    }],
+    "license": "BSD",
+    "dependencies": {
+        "backbone": ">=1.1.0",
+        "underscore": ">=1.5.2",
+        "midi": ">=0.7.0"
+    }
 }
